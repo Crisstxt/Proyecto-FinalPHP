@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'old';
+    src: url('../old_london/Olondon_.otf');
+    src: url('../old_london/OldLondon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    background-image: url(../Imágenes/fondo.jpg);
+    background-size: 150%;
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+    font-family: 'old';
+    font-size: 70px;
+    text-shadow: 0.1em 0.1em grey
+}
+
+#Formulario{
+    width: 500px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: white; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 7px 13px 37px black;
+    text-align: center;
+}
+
+#For{
+    width: 700px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    color: white; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 7px 13px 37px black;
+    text-align: center;
+}
+
+
+
+.Nombre{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.xms{
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+
+button{
+    color: white;
+    background: black;
+}
+
+.generos{
+    border-radius: 4px;
+    border: 1px solid #1f53c5;
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
+
